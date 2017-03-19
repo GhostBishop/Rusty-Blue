@@ -5,7 +5,7 @@ h1, h2, h3 {
 p {
   font-family: "Titillium+Web"; }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 414px) {
   .navbar #logo {
     height: 2em; }
   .navbar #rustyblue {
@@ -20,11 +20,11 @@ p {
   header .hero {
     margin-top: 7em; } }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   header .hero {
     margin-top: 3em; } }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 414px) {
   header .hero {
     margin-top: 7em; }
     header .hero h1 {
@@ -40,9 +40,14 @@ p {
 
 @media screen and (max-width: 1200px) {
   .bio-section .bio-picture {
-    margin-left: 2em; } }
+    margin-left: 2em;
+    margin-top: 10em; } }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 992px) {
+  .bio-section .bio-picture {
+    margin-top: 5em; } }
+
+@media screen and (max-width: 768px) {
   .bio-section #bio-text {
     font-size: .75em; }
   .bio-section .bio-container .bio-picture {
@@ -50,13 +55,21 @@ p {
     margin-left: 3.5em;
     margin-top: 1em; } }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 414px) {
   .bio-section .bio-container h3 {
     font-size: 1.7em; }
   .bio-section .bio-container .bio-picture {
-    width: 20em;
+    width: 15em;
     margin-left: 2em;
     margin-top: 1em; } }
+
+@media screen and (max-width: 1200px) {
+  .soundcloud-itunes #itunes img {
+    margin: 0;
+    width: 23em; }
+  .soundcloud-itunes #itunes .btn {
+    left: 15.2em;
+    top: 15.2em; } }
 
 @media screen and (max-width: 1023px) {
   .soundcloud-itunes #itunes img {
@@ -65,7 +78,7 @@ p {
   .soundcloud-itunes #itunes .btn {
     left: 14.8em; } }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .soundcloud-itunes iframe {
     width: 80%;
     margin-left: 3em; }
@@ -74,16 +87,37 @@ p {
   .soundcloud-itunes #itunes .btn {
     left: 21.4em; } }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 414px) {
   .soundcloud-itunes iframe {
     width: 100%;
     margin-left: 0; }
   .soundcloud-itunes #itunes img {
-    height: 21em;
+    height: 17.8em;
     margin-left: 0; }
   .soundcloud-itunes #itunes .btn {
-    left: 12.2em;
-    top: 14em; } }
+    left: 9.7em;
+    top: 11.7em; } }
+
+@media screen and (max-width: 375px) {
+  .soundcloud-itunes #itunes img {
+    height: 15.8em; }
+  .soundcloud-itunes #itunes .btn {
+    left: 8.5em;
+    top: 10.3em; } }
+
+@media screen and (max-width: 360px) {
+  .soundcloud-itunes #itunes img {
+    height: 15em; }
+  .soundcloud-itunes #itunes .btn {
+    left: 7.5em;
+    top: 9.7em; } }
+
+@media screen and (max-width: 320px) {
+  .soundcloud-itunes #itunes img {
+    height: 13em; }
+  .soundcloud-itunes #itunes .btn {
+    left: 6.2em;
+    top: 8.2em; } }
 
 * {
   margin: 0;
@@ -119,6 +153,12 @@ html, body {
   #home:hover {
     color: #cccccc; }
 
+#showdates {
+  color: white;
+  font-family: "Titillium+Web"; }
+  #showdates:hover {
+    color: #cccccc; }
+
 #logo {
   height: 3.5em; }
 
@@ -141,7 +181,7 @@ header {
 .hero {
   color: white;
   text-align: center;
-  margin-top: 17em; }
+  margin-top: 8em; }
 
 h1 {
   font-size: 5em; }
@@ -168,7 +208,7 @@ h1 {
   color: #fff; }
 
 .bio-picture {
-  width: 50%;
+  width: 47%;
   margin-top: 6em;
   margin-left: 4em; }
 

@@ -442,26 +442,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/css\/style-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/style-min-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/css\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/style-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/images\/1.jpg": {
 		"ft": 16384,
 		"iS": 45066,
@@ -579,6 +559,12 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/favicon.ico",
+		"oF": 0
 		},
 	"\/images\/hero.jpg": {
 		"ft": 16384,

@@ -1,11 +1,14 @@
 // Break Points
 $breaklaptop: 1200px
 $breaktablet: 1023px
-$breaklargephone: 767px
-$breaksmallphone: 480px
+$breaklargephone: 768px
+$breakmediumphone: 414px
+$breakiphone6: 375px
+$breaksmallphone: 360px
+$breakiphone5: 320px
 
 // Navbar
-@media screen and (max-width: $breaksmallphone)
+@media screen and (max-width: $breakmediumphone)
   .navbar
     #logo
       height: 2em
@@ -23,7 +26,7 @@ header
       margin-top: 7em
     @media screen and (max-width: $breaklargephone)
       margin-top: 3em
-  @media screen and (max-width: $breaksmallphone)
+  @media screen and (max-width: $breakmediumphone)
     .hero
       margin-top: 7em
       h1
@@ -42,6 +45,9 @@ header
   .bio-picture
     @media screen and (max-width: $breaklaptop)
       margin-left: 2em
+      margin-top: 10em
+    @media screen and (max-width: 992px)
+      margin-top: 5em
 
   .bio-container
     h3
@@ -74,7 +80,7 @@ header
         margin-left: 3.5em
         margin-top: 1em
 
-@media screen and (max-width: $breaksmallphone)
+@media screen and (max-width: $breakmediumphone)
   .bio-section
     .bio-container
       h3
@@ -88,12 +94,22 @@ header
         //   top: 1.1em
         //   width: 9.5%
       .bio-picture
-        width: 20em
+        width: 15em
         margin-left: 2em
         margin-top: 1em
 
 
 // Soundcloud iTunes
+
+@media screen and (max-width: $breaklaptop)
+  .soundcloud-itunes
+    #itunes
+      img
+        margin: 0
+        width: 23em
+      .btn
+        left: 15.2em
+        top: 15.2em
 
 @media screen and (max-width: $breaktablet)
   .soundcloud-itunes
@@ -115,15 +131,42 @@ header
       .btn
         left: 21.4em
 
-@media screen and (max-width: $breaksmallphone)
+@media screen and (max-width: $breakmediumphone)
   .soundcloud-itunes
     iframe
       width: 100%
       margin-left: 0
     #itunes
       img
-        height: 21em
+        height: 17.8em
         margin-left: 0
       .btn
-        left: 12.2em
-        top: 14em
+        left: 9.7em
+        top: 11.7em
+
+@media screen and (max-width: $breakiphone6)
+  .soundcloud-itunes
+    #itunes
+      img
+        height: 15.8em
+      .btn
+        left: 8.5em
+        top: 10.3em
+
+@media screen and (max-width: $breaksmallphone)
+  .soundcloud-itunes
+    #itunes
+      img
+        height: 15em
+      .btn
+        left: 7.5em
+        top: 9.7em
+
+@media screen and (max-width: $breakiphone5)
+  .soundcloud-itunes
+    #itunes
+      img
+        height: 13em
+      .btn
+        left: 6.2em
+        top: 8.2em
