@@ -1,0 +1,111 @@
+/* Basic Setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html,
+body {
+  background-color: #fff;
+  color: #555;
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden; }
+
+.clearfix {
+  zoom: 1; }
+
+.clearfix:after {
+  content: '.';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden; }
+
+/* Navbar Section */
+.navbar {
+  background-color: transparent;
+  border: none;
+  margin-top: .5em; }
+
+#home {
+  color: white; }
+
+#home:hover {
+  color: #cccccc; }
+
+#logo {
+  height: 3.5em; }
+
+#rustyblue {
+  color: white;
+  margin-left: 1em;
+  font-size: 16px; }
+
+/* Hero Section */
+header {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed; }
+
+.herologo {
+  height: 10em; }
+
+.hero {
+  color: white;
+  text-align: center;
+  margin-top: 10%; }
+
+h1 {
+  font-size: 5em; }
+
+@media (max-width: 1199px) {
+  h1:after {
+    content: "";
+    background: #ccc;
+    position: absolute;
+    left: 3.8em;
+    height: 1px;
+    width: 40%;
+    bottom: 9.7em; } }
+
+.hero p {
+  margin-top: 1em;
+  font-size: 2em; }
+
+/* Bio Section */
+.bio-section {
+  background-color: #000; }
+
+.bio-container {
+  margin-top: 2em;
+  margin-bottom: 2em; }
+
+.bio-container h3 {
+  font-size: 2em;
+  margin-bottom: .5em; }
+
+.bio-container h3::after {
+  content: "";
+  background: #ccc;
+  position: absolute;
+  height: 1px;
+  left: .4em;
+  top: 1.7em;
+  width: 14%; }
+
+.bio-container p {
+  font-size: 16px;
+  line-height: 1.5; }
+
+#bio-text {
+  color: #fff; }
+
+.bio-picture {
+  width: 50%;
+  margin-top: 6em;
+  margin-left: 4em; }
