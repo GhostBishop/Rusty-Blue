@@ -1,4 +1,29 @@
-/* Basic Setup
+// Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Codystar|Montserrat:400,700|Titillium+Web')
+
+// Font Varables
+$codystar: 'Codystar'
+$montserrat: 'Montserrat'
+$titillium: 'Titillium+Web'
+
+// Font Set
+
+h1, h2, h3
+  font-family: $montserrat
+
+p
+  font-family: $titillium
+
+// Custom Colors
+$facebook: #3b5998
+$twitter: #1da1f2
+$instagram: #405de6
+
+// Queries Import
+
+@import '_queries'
+
+// Basic Setup
 
 *
   margin: 0
@@ -6,9 +31,9 @@
   box-sizing: border-box
 
 html, body
+  width: 100%
   background-color: #000
   color: #555
-  font-family: 'Lato', 'Arial', sans-serif
   font-weight: 300
   font-size: 20px
   text-rendering: optimizeLegibility
@@ -23,14 +48,16 @@ html, body
     height: 0
     visibility: hidden
 
-/* Navbar Section
+// Navbar Section
 
 .navbar
   background-color: transparent
   border: none
+  margin-top: 1em
 
 #home
   color: white
+  font-family: $titillium
   &:hover
     color: #cccccc
 
@@ -40,9 +67,10 @@ html, body
 #rustyblue
   color: white
   margin-left: 1em
-  font-size: 16px
+  font-size: 1.2em
+  font-family: $montserrat
 
-/* Hero Section
+// Hero Section
 
 header
   background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/hero.jpg)
@@ -57,24 +85,25 @@ header
 .hero
   color: white
   text-align: center
-  margin-top: 10%
+  margin-top: 17em
 
 h1
   font-size: 5em
-  &:after
-    content: ""
-    background: #ccc
-    position: absolute
-    bottom: 25%
-    left: 30%
-    height: 1px
-    width: 40%
+  // &:after
+  //   content: ""
+  //   background: #ccc
+  //   position: absolute
+  //   bottom: 27%
+  //   left: 30%
+  //   height: 1px
+  //   width: 40%
 
 .hero p
-  margin-top: 1em
+  font-family: $codystar
+  margin-top: .5em
   font-size: 2em
 
-/* Bio Section
+// Bio Section
 
 .bio-section
   background-color: #000
@@ -85,23 +114,102 @@ h1
   h3
     font-size: 2em
     margin-bottom: .5em
-    &::after
-      content: ""
-      background: #ccc
-      position: absolute
-      height: 1px
-      left: .4em
-      top: 1.7em
-      width: 14%
+    // &::after
+    //   content: ""
+    //   background: #ccc
+    //   position: absolute
+    //   height: 1px
+    //   left: .4em
+    //   top: 1.7em
+    //   width: 14%
   p
-    font-size: 16px
+    font-size: .85em
     line-height: 1.5
 
 #bio-text
-  float: left
+  display:inline-block
   color: #fff
 
 .bio-picture
   width: 50%
   margin-top: 6em
   margin-left: 4em
+
+// Soundcloud & iTunes
+
+.soundcloud-itunes
+  margin-top: 2em
+  margin-bottom: 2.5em
+
+#itunes
+  img
+    height: 22.5em
+    width: 25em
+    margin-left: 2.5em
+    z-index: 1
+  .btn
+    z-index: 2
+    position: absolute
+    top: 15em
+    left: 18.7em
+    a
+      text-decoration: none
+      color: white
+
+
+// Gallery
+
+.thumbnail
+  border: 0 none
+  box-shadow: none
+  background: transparent
+
+.gallery h2
+  font-size: 2.5em
+  text-align: center
+  color: white
+  margin-bottom: 1.2em
+
+.gallery
+  margin-bottom: 3.5em
+
+// Footer
+
+#footer-logo
+  height: 3.5em
+  display: block
+  margin: auto
+
+.footer
+  color: white
+  text-align: center
+  h2
+    font-size: 2.5em
+    margin-bottom: .2em
+  p
+    margin-bottom: 1em
+
+.social
+  a
+    margin: .5em
+    font-size: 1.3em
+  #facebook
+    color: $facebook
+  #twitter
+    color: $twitter
+  #instagram
+    color: $instagram
+
+.copyright
+  margin-top: 1.5em
+  padding-bottom: 2em
+  font-size: .7em
+  a
+    color: white
+    text-decoration: none
+
+#designer:hover
+  text-decoration: underline
+
+#copy
+  color: white

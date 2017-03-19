@@ -432,6 +432,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/css\/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/main-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/style-min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -452,6 +462,96 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/images\/1.jpg": {
+		"ft": 16384,
+		"iS": 45066,
+		"oA": 0,
+		"oAP": "\/images\/1.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/10.jpg": {
+		"ft": 16384,
+		"iS": 241555,
+		"oA": 0,
+		"oAP": "\/images\/10.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/2.jpg": {
+		"ft": 16384,
+		"iS": 107117,
+		"oA": 0,
+		"oAP": "\/images\/2.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/3.jpg": {
+		"ft": 16384,
+		"iS": 49330,
+		"oA": 0,
+		"oAP": "\/images\/3.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/4.jpg": {
+		"ft": 16384,
+		"iS": 42205,
+		"oA": 0,
+		"oAP": "\/images\/4.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/5.jpg": {
+		"ft": 16384,
+		"iS": 74538,
+		"oA": 0,
+		"oAP": "\/images\/5.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/6.jpg": {
+		"ft": 16384,
+		"iS": 50645,
+		"oA": 0,
+		"oAP": "\/images\/6.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/7.jpg": {
+		"ft": 16384,
+		"iS": 65867,
+		"oA": 0,
+		"oAP": "\/images\/7.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/8.jpg": {
+		"ft": 16384,
+		"iS": 195687,
+		"oA": 0,
+		"oAP": "\/images\/8.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/9.jpg": {
+		"ft": 16384,
+		"iS": 68288,
+		"oA": 0,
+		"oAP": "\/images\/9.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/bio.jpg": {
 		"ft": 16384,
 		"iS": 68288,
@@ -460,6 +560,25 @@
 		"oF": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/images\/coverart.jpg": {
+		"ft": 16384,
+		"iS": 84410,
+		"oA": 0,
+		"oAP": "\/images\/coverart.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/hero.jpg": {
 		"ft": 16384,
@@ -470,11 +589,31 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/instagram.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/instagram.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/twitter.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -493,6 +632,19 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/sass\/_queries.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_queries.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/sass\/main.sass": {
 		"aP": 1,

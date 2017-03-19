@@ -1,13 +1,99 @@
-/* Basic Setup */
+@import url("https://fonts.googleapis.com/css?family=Codystar|Montserrat:400,700|Titillium+Web");
+h1, h2, h3 {
+  font-family: "Montserrat"; }
+
+p {
+  font-family: "Titillium+Web"; }
+
+@media screen and (max-width: 480px) {
+  .navbar #logo {
+    height: 2em; }
+  .navbar #rustyblue {
+    font-size: .8em;
+    margin-left: .5em; } }
+
+@media screen and (max-width: 1200px) {
+  header .hero {
+    margin-top: 10em; } }
+
+@media screen and (max-width: 1023px) {
+  header .hero {
+    margin-top: 7em; } }
+
+@media screen and (max-width: 767px) {
+  header .hero {
+    margin-top: 3em; } }
+
+@media screen and (max-width: 480px) {
+  header .hero {
+    margin-top: 7em; }
+    header .hero h1 {
+      font-size: 2.5em; }
+    header .hero p {
+      font-size: 1em; }
+  header .herologo {
+    height: 7em; } }
+
+@media screen and (max-width: 1023px) {
+  .bio-section #bio-text {
+    font-size: .8em; } }
+
+@media screen and (max-width: 1200px) {
+  .bio-section .bio-picture {
+    margin-left: 2em; } }
+
+@media screen and (max-width: 767px) {
+  .bio-section #bio-text {
+    font-size: .75em; }
+  .bio-section .bio-container .bio-picture {
+    width: 30em;
+    margin-left: 3.5em;
+    margin-top: 1em; } }
+
+@media screen and (max-width: 480px) {
+  .bio-section .bio-container h3 {
+    font-size: 1.7em; }
+  .bio-section .bio-container .bio-picture {
+    width: 20em;
+    margin-left: 2em;
+    margin-top: 1em; } }
+
+@media screen and (max-width: 1023px) {
+  .soundcloud-itunes #itunes img {
+    margin-left: 1em;
+    width: auto; }
+  .soundcloud-itunes #itunes .btn {
+    left: 14.8em; } }
+
+@media screen and (max-width: 767px) {
+  .soundcloud-itunes iframe {
+    width: 80%;
+    margin-left: 3em; }
+  .soundcloud-itunes #itunes img {
+    margin-left: 5.7em; }
+  .soundcloud-itunes #itunes .btn {
+    left: 21.4em; } }
+
+@media screen and (max-width: 480px) {
+  .soundcloud-itunes iframe {
+    width: 100%;
+    margin-left: 0; }
+  .soundcloud-itunes #itunes img {
+    height: 21em;
+    margin-left: 0; }
+  .soundcloud-itunes #itunes .btn {
+    left: 12.2em;
+    top: 14em; } }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
 html, body {
+  width: 100%;
   background-color: #000;
   color: #555;
-  font-family: 'Lato', 'Arial', sans-serif;
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
@@ -22,13 +108,14 @@ html, body {
     height: 0;
     visibility: hidden; }
 
-/* Navbar Section */
 .navbar {
   background-color: transparent;
-  border: none; }
+  border: none;
+  margin-top: 1em; }
 
 #home {
-  color: white; }
+  color: white;
+  font-family: "Titillium+Web"; }
   #home:hover {
     color: #cccccc; }
 
@@ -38,9 +125,9 @@ html, body {
 #rustyblue {
   color: white;
   margin-left: 1em;
-  font-size: 16px; }
+  font-size: 1.2em;
+  font-family: "Montserrat"; }
 
-/* Hero Section */
 header {
   background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/hero.jpg);
   background-size: cover;
@@ -54,24 +141,16 @@ header {
 .hero {
   color: white;
   text-align: center;
-  margin-top: 10%; }
+  margin-top: 17em; }
 
 h1 {
   font-size: 5em; }
-  h1:after {
-    content: "";
-    background: #ccc;
-    position: absolute;
-    bottom: 25%;
-    left: 30%;
-    height: 1px;
-    width: 40%; }
 
 .hero p {
-  margin-top: 1em;
+  font-family: "Codystar";
+  margin-top: .5em;
   font-size: 2em; }
 
-/* Bio Section */
 .bio-section {
   background-color: #000; }
 
@@ -81,23 +160,88 @@ h1 {
   .bio-container h3 {
     font-size: 2em;
     margin-bottom: .5em; }
-    .bio-container h3::after {
-      content: "";
-      background: #ccc;
-      position: absolute;
-      height: 1px;
-      left: .4em;
-      top: 1.7em;
-      width: 14%; }
   .bio-container p {
-    font-size: 16px;
+    font-size: .85em;
     line-height: 1.5; }
 
 #bio-text {
-  float: left;
   color: #fff; }
 
 .bio-picture {
   width: 50%;
   margin-top: 6em;
   margin-left: 4em; }
+
+.soundcloud-itunes {
+  margin-top: 2em;
+  margin-bottom: 2.5em; }
+
+#itunes img {
+  height: 22.5em;
+  width: 25em;
+  margin-left: 2.5em;
+  z-index: 1; }
+
+#itunes .btn {
+  z-index: 2;
+  position: absolute;
+  top: 15em;
+  left: 18.7em; }
+  #itunes .btn a {
+    text-decoration: none;
+    color: white; }
+
+.thumbnail {
+  border: 0 none;
+  box-shadow: none;
+  background: transparent; }
+
+.gallery h2 {
+  font-size: 2.5em;
+  text-align: center;
+  color: white;
+  margin-bottom: 1.2em; }
+
+.gallery {
+  margin-bottom: 3.5em; }
+
+#footer-logo {
+  height: 3.5em;
+  display: block;
+  margin: auto; }
+
+.footer {
+  color: white;
+  text-align: center; }
+  .footer h2 {
+    font-size: 2.5em;
+    margin-bottom: .2em; }
+  .footer p {
+    margin-bottom: 1em; }
+
+.social a {
+  margin: .5em;
+  font-size: 1.3em; }
+
+.social #facebook {
+  color: #3b5998; }
+
+.social #twitter {
+  color: #1da1f2; }
+
+.social #instagram {
+  color: #405de6; }
+
+.copyright {
+  margin-top: 1.5em;
+  padding-bottom: 2em;
+  font-size: .7em; }
+  .copyright a {
+    color: white;
+    text-decoration: none; }
+
+#designer:hover {
+  text-decoration: underline; }
+
+#copy {
+  color: white; }
