@@ -1,0 +1,99 @@
+// Break Points
+$breaklaptop: 1200px
+$breaktablet: 1023px
+$breaklargephone: 768px
+$breakmediumphone: 414px
+$breakiphone6: 375px
+$breaksmallphone: 360px
+$breakiphone5: 320px
+
+// Navbar
+@media screen and (max-width: $breakmediumphone)
+  .navbar
+    #logo
+      height: 2em
+    #rustyblue
+      font-size: .8em
+      margin-left: .5em
+
+// Header Section
+
+header
+  .hero
+    @media screen and (max-width: $breaklaptop)
+      margin-top: 10em
+    @media screen and (max-width: $breaktablet)
+      margin-top: 7em
+    @media screen and (max-width: $breaklargephone)
+      margin-top: 3em
+  @media screen and (max-width: $breakmediumphone)
+    .hero
+      margin-top: 7em
+      h1
+        font-size: 2.5em
+      p
+        font-size: 1em
+    .herologo
+      height: 7em
+
+// Bio Section
+
+.bio-section
+  #bio-text
+    @media screen and (max-width: $breaktablet)
+      font-size: .8em
+  .bio-picture
+    @media screen and (max-width: $breaklaptop)
+      margin-left: 2em
+      margin-top: 10em
+    @media screen and (max-width: 992px)
+      margin-top: 5em
+
+  .bio-container
+    h3
+      // &::after
+      //   content: ""
+      //   background: #ccc
+      //   position: absolute
+      //   height: 1px
+      //   left: .5em
+      //   top: 1.7em
+      //   width: 14%
+
+@media screen and (max-width: $breaklargephone)
+  .bio-section
+    #bio-text
+      font-size: .75em
+
+    .bio-container
+      h3
+        // &::after
+        //   content: ""
+        //   background: #ccc
+        //   position: absolute
+        //   height: 1px
+        //   left: .5em
+        //   top: 1.1em
+        //   width: 7.5%
+      .bio-picture
+        width: 30em
+        margin-left: 3.5em
+        margin-top: 1em
+
+@media screen and (max-width: $breakmediumphone)
+  .bio-section
+    .bio-container
+      h3
+        font-size: 1.7em
+        // &::after
+        //   content: ""
+        //   background: #ccc
+        //   position: absolute
+        //   height: 1px
+        //   left: .65em
+        //   top: 1.1em
+        //   width: 9.5%
+      .bio-picture
+        width: 15em
+        margin-left: 2em
+        margin-top: 1em
