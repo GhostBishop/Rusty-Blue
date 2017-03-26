@@ -38,6 +38,7 @@ html, body
   font-size: 20px
   text-rendering: optimizeLegibility
   overflow-x: hidden
+  margin: 0 auto 0 auto
 
 .clearfix
   zoom: 1
@@ -53,13 +54,7 @@ html, body
 .navbar-transparent
   background-color: transparent
   border: none
-  margin-top: 1em
-
-.dark-navbar
-  background-color: black
-  border: none
-  margin-top: 0
-  padding-top: 1em
+  margin-top: .5em
 
 #home
   color: white
@@ -89,6 +84,8 @@ header
   background-position: center
   height: 100vh
   background-attachment: fixed
+  #logo
+    height: 3em
 
 .herologo
   height: 10em
@@ -98,7 +95,7 @@ header
 .hero
   color: white
   text-align: center
-  margin-top: 20em
+  margin-top: 8em
   @media screen and (max-width: 1200px)
     margin-top: 10em
   @media screen and (max-width: 992px)
@@ -129,14 +126,7 @@ header
   h3
     font-size: 2em
     margin-bottom: .5em
-    // &::after
-    //   content: ""
-    //   background: #ccc
-    //   position: absolute
-    //   height: 1px
-    //   left: .4em
-    //   top: 1.7em
-    //   width: 14%
+
   p
     font-size: .85em
     line-height: 1.5
@@ -152,6 +142,11 @@ header
     clear: both !important
 
 // Soundcloud & iTunes
+
+#lifes-good
+  color: white
+  font-size: 2em
+  margin-bottom: 1.5em
 
 .soundcloud-itunes
   margin-top: 2em

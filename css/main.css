@@ -17,7 +17,8 @@ html, body {
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  margin: 0 auto 0 auto; }
 
 .clearfix {
   zoom: 1; }
@@ -31,13 +32,7 @@ html, body {
 .navbar-transparent {
   background-color: transparent;
   border: none;
-  margin-top: 1em; }
-
-.dark-navbar {
-  background-color: black;
-  border: none;
-  margin-top: 0;
-  padding-top: 1em; }
+  margin-top: .5em; }
 
 #home {
   color: white;
@@ -66,6 +61,8 @@ header {
   background-position: center;
   height: 100vh;
   background-attachment: fixed; }
+  header #logo {
+    height: 3em; }
 
 .herologo {
   height: 10em; }
@@ -76,7 +73,7 @@ header {
 .hero {
   color: white;
   text-align: center;
-  margin-top: 20em; }
+  margin-top: 8em; }
   @media screen and (max-width: 1200px) {
     .hero {
       margin-top: 10em; } }
@@ -121,6 +118,11 @@ header {
     #bio-image {
       top: 0;
       clear: both !important; } }
+
+#lifes-good {
+  color: white;
+  font-size: 2em;
+  margin-bottom: 1.5em; }
 
 .soundcloud-itunes {
   margin-top: 2em;

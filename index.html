@@ -23,47 +23,54 @@
     </head>
     <body>
         <header>
-            <!-- Navbar Section -->
-            <div class="container-fluid">
-                <nav class="navbar navbar-inverse navbar-transparent" role="navigation">
-                    <div class="container">
-                        <div class="navbar-header">
-                            <img src="images/logo.svg" alt="logo" id="logo">
-                            <span id="rustyblue">Rusty Blue</span>
-                        </div>
-                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                            <ul class="nav navbar-nav navbar-right">
-                                <li>
-                                    <a href="#home" id="home">Home</a>
-                                </li>
-                                <li>
-                                    <a href="http://www.bandsintown.com/RustyBlue/" id="showdates">Show Dates</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-            <!-- Hero Section -->
-            <div class="centered hero container">
-                <div class="row">
+          <!-- Hero Section -->
+          <div class="row">
+            <div class="hero container">
+                <div class="row" id="fadein" style="display:none;">
                     <img src="images/logo.svg" class="herologo">
                     <h1>Rusty Blue</h1>
                     <h2>Life's Good</h2>
                 </div>
             </div>
+          </div>
         </header>
+        <nav class="navbar navbar-inverse navbar-transparent navbar-fixed-top" role="navigation" id="navbar-main">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <img src="images/logo.svg" alt="logo" id="logo">
+                    <span id="rustyblue">Rusty Blue</span>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#home" id="home">Home</a>
+                        </li>
+                        <li>
+                            <a href="http://www.bandsintown.com/RustyBlue/" id="showdates">Show Dates</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <div class="bio-section container">
             <div class="container bio-container">
                 <div class="row">
                     <div id="bio-text" class="col-md-5">
                         <h3>BIO</h3>
                         <p>
-                  Rusty Blue is an alternative rock band from Wilmington, Delaware. The band started off in 2014 as Overripe Banana, with the original line-up being Greg Stanard on drums & vocals, Joey Heins on guitar and Adam Warner on bass.</p>
+                        Rusty Blue is an alternative rock band from Wilmington, Delaware. The band started off in 2014 as Overripe Banana, with the original line-up being Greg Stanard on drums & vocals, Joey Heins on guitar and Adam Warner on bass.</p>
                         <p>
-                  After a talent show performance in January of 2015, Damien Pace joined the band as the drummer. Later on in mid-2015, Greg took the role of rhythm guitarist after Damien brought Clayton Milano, the lead guitarist, into the band. Joey then became the new bassist after Adam's exit of the band.</p>
+                        After a talent show performance in January of 2015, Damien Pace joined the band as the drummer. Later on in mid-2015, Greg took the role of rhythm guitarist after Damien brought Clayton Milano, the lead guitarist, into the band. Joey then became the new
+                        bassist after Adam's exit of the band.</p>
                         <p>
-                  After playing many shows, events and competitions, Rusty Blue has gained a reputation by being known as a strong force in the local music scene in northern Delaware, even with all the members still being in high school. With the amazing vocals and songwriting ability of Greg, the mind-boggling guitar solos of Clayton, the timeless bass riffs by Joey and the intense, yet precise drumming of Damien, Rusty Blue is quickly becoming one of the most notable acts in northern Delaware, capturing the attention of anyone who hears them.</p>
+                        After playing many shows, events and competitions, Rusty Blue has gained a reputation by being known as a strong force in the local music scene in northern Delaware, even with all the members still being in high school. With the amazing vocals and songwriting
+                        ability of Greg, the mind-boggling guitar solos of Clayton, the timeless bass riffs by Joey and the intense, yet precise drumming of Damien, Rusty Blue is quickly becoming one of the most notable acts in northern Delaware, capturing
+                        the attention of anyone who hears them.</p>
                     </div>
                     <div class="col-md-6 col-md-offset-1 pull-right" id="bio-image">
                         <img src="images/bio.jpg" class="bio-picture img-responsive">
@@ -75,6 +82,7 @@
         <!-- Sound Cloud and iTunes -->
         <div class="container soundcloud-itunes clearfix">
             <div class="row">
+                <h3 id="lifes-good" class="text-center">Life's Good</h3>
                 <div class="col-lg-6 col-sm-12 col-md-6" id="soundcloud">
                     <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/218856717&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
                 </div>
@@ -148,6 +156,7 @@
         <script src="lib/jquery-3.2.0.min.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <!-- Custom JS Scripts -->
-        <script src="js/scripts.js"></scrip>
-    </body>
-</script>
+        <script src="js/scripts.js">
+        < /scrip> <
+        /body>
+    </script>
